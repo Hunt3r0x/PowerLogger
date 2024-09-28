@@ -1,5 +1,5 @@
 param (
-    [string]$LogFile = "C:\Users\Ahmed Mohamed\Documents\logs\Usage_Logs.txt",  # Default log file location
+    [string]$LogFile = "C:\Users\Public\PowerLoggerPs\Usage_Logs.txt",
     [int]$Interval = 5
 )
 
