@@ -45,7 +45,7 @@ function Print-ColoredOutput {
     Write-Host "$cpu %" -ForegroundColor White
 
     Write-Host "RAM Usage: " -ForegroundColor Cyan -NoNewline
-    Write-Host "$ramUsed MB of $ramTotal MB" -ForegroundColor White
+    Write-Host "$ramUsed GB of $ramTotal GB" -ForegroundColor White
 
     Write-Host "Disk Usage: " -ForegroundColor Magenta -NoNewline
     Write-Host "$diskUsedPct %" -ForegroundColor White
